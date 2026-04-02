@@ -31,8 +31,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition">
       <div className="max-w-4xl mx-auto flex flex-col items-center px-6 py-16 text-center">
+
         {/* HERO SECTION */}
         <div className="max-w-2xl">
+
           {/* Profile Image */}
           <div className="relative flex justify-center mb-6">
             <div className="absolute w-56 h-56 md:w-72 md:h-72 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
@@ -40,6 +42,7 @@ export default function Home() {
             <img
               src="/hsk.jpeg"
               alt="profile"
+              loading="lazy"
               className="relative w-48 h-48 md:w-60 md:h-60 rounded-full object-cover border-4 border-white shadow-xl animate-float hover:scale-110 transition duration-300"
             />
           </div>
@@ -66,8 +69,13 @@ export default function Home() {
           </div>
 
           {/* Description */}
-          <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm md:text-base animate-fadeIn delay-200 leading-relaxed">
+          <p className="text-gray-600 dark:text-gray-300 mb-3 text-sm md:text-base animate-fadeIn delay-200 leading-relaxed">
             I'm a passionate frontend developer focused on building responsive and user-friendly web applications. I enjoy turning ideas into real-world products and continuously improving my problem-solving skills through hands-on development.
+          </p>
+
+          {/* CURRENTLY */}
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
+            Currently building real-world frontend projects and improving DSA skills.
           </p>
 
           {/* BUTTONS */}
@@ -89,12 +97,8 @@ export default function Home() {
             </a>
           </div>
 
-          {/* SOCIAL LINKS 🔥 */}
+          {/* SOCIAL LINKS */}
           <div className="flex justify-center gap-6 text-xl text-gray-600 dark:text-gray-300 animate-fadeIn delay-300">
-            {/* <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white">
-              <FaGithub />
-            </a> */}
-
             <a
               href="https://www.linkedin.com/in/hrishikesh-s-kolli-121856221/"
               target="_blank"
@@ -110,6 +114,7 @@ export default function Home() {
             >
               <FaEnvelope />
             </a>
+
           </div>
         </div>
 
@@ -129,6 +134,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+
       </div>
     </div>
   );
