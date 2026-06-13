@@ -10,10 +10,10 @@ import {
   FaReact,
   FaAngular,
   FaLinkedin,
-  FaEnvelope,
+  FaGithub,
 } from "react-icons/fa";
 
-import { SiPython } from "react-icons/si";
+import { SiPython, SiGmail } from "react-icons/si";
 
 export default function Home() {
   const skills = [
@@ -30,7 +30,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition">
       <div className="max-w-4xl mx-auto flex flex-col items-center px-6 py-16 text-center">
-
         <div className="max-w-2xl">
 
           {/* IMAGE */}
@@ -38,7 +37,7 @@ export default function Home() {
             <div className="absolute w-56 h-56 md:w-72 md:h-72 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
 
             <img
-              src="/hsk.jpeg"
+              src="/HRISHIKESH_PHOTO.jpg"
               alt="profile"
               className="relative w-48 h-48 md:w-60 md:h-60 rounded-full object-cover border-4 border-white shadow-xl hover:scale-110 transition duration-300"
             />
@@ -47,7 +46,7 @@ export default function Home() {
           {/* NAME */}
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Hi, I'm Hrishikesh Kolli 👋
+              Hi, I'm Hrishikesh Kolli
             </span>
           </h1>
 
@@ -65,9 +64,10 @@ export default function Home() {
             />
           </div>
 
-          {/* DESC */}
+          {/* DESCRIPTION */}
           <p className="text-gray-600 dark:text-gray-300 mb-3 text-sm md:text-base leading-relaxed">
-            I'm a frontend developer focused on building responsive and user-friendly web apps.
+            I'm a frontend developer focused on building responsive and
+            user-friendly web apps.
           </p>
 
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
@@ -78,13 +78,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
             <a
               href="/projects"
-              className="bg-black text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition"
+              className="border px-6 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition"
             >
               View Projects
             </a>
 
             <a
-              href="/HrishikeshSK_Resume.pdf"
+              href="/RESUME-HRISHIKESH.pdf"
               target="_blank"
               rel="noreferrer"
               className="border px-6 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition"
@@ -94,18 +94,34 @@ export default function Home() {
           </div>
 
           {/* SOCIAL */}
-          <div className="flex justify-center gap-6 text-xl text-gray-600 dark:text-gray-300">
+          <div className="flex justify-center gap-6 text-3xl mt-2">
 
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/hrishikesh-s-kolli-121856221/"
               target="_blank"
               rel="noreferrer"
+              className="hover:scale-125 transition duration-300"
             >
-              <FaLinkedin />
+              <FaLinkedin style={{ color: "#0A66C2" }} />
             </a>
 
-            <a href="mailto:hrishikeshs2047@gmail.com">
-              <FaEnvelope />
+            {/* Gmail */}
+            <a
+              href="mailto:hrishikeshs2047@gmail.com"
+              className="hover:scale-125 transition duration-300"
+            >
+              <SiGmail style={{ color: "#EA4335" }} />
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/Hrishisk99"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:scale-125 transition duration-300"
+            >
+              <FaGithub className="text-black dark:text-white" />
             </a>
 
           </div>

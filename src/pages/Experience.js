@@ -16,7 +16,7 @@ export default function Experience() {
           <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow hover:shadow-lg transition duration-300">
 
             <h2 className="text-xl font-semibold dark:text-white">
-              Programmer Analyst at Aiwoox – Applied AnalytiX
+              Programmer Analyst at Aiwoox- Applied AnalytiX
             </h2>
 
             <p className="text-sm text-blue-500 mt-1">
