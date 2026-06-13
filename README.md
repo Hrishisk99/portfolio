@@ -61,7 +61,7 @@ I enjoy turning ideas into real-world products and continuously improving my pro
 To run locally:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/portfolio.git
+git clone [https://github.com/YOUR-USERNAME/portfolio.git](https://github.com/Hrishisk99/portfolio.git)
 cd portfolio
 npm install
 npm start
