@@ -6,7 +6,7 @@ This project showcases my work, skills, and experience as a frontend developer.
 ---
 
 ## 🌐 Live Demo
-👉 https://your-vercel-link.vercel.app
+👉 [[https://your-vercel-link.vercel.app](https://portfolio-amber-three-58.vercel.app/)]
 
 ---
 
@@ -61,7 +61,7 @@ I enjoy turning ideas into real-world products and continuously improving my pro
 To run locally:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/portfolio.git
+git clone https://github.com/Hrishisk99/portfolio.git
 cd portfolio
 npm install
 npm start
