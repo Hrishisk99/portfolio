@@ -84,7 +84,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/RESUME-HRISHIKESH.pdf"
+              href="/Profile.pdf"
               target="_blank"
               rel="noreferrer"
               className="border px-6 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition"

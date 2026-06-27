@@ -20,11 +20,11 @@ const projects = [
     features: ["Responsive design", "Reusable components", "Mobile-first UI"],
   },
   {
-    name: "XCruise",
-    desc: "Designed a responsive cruise booking interface showcasing destinations with structured layouts and interactive UI elements.",
-    tech: ["HTML", "CSS"],
-    live: "https://69c7ca428d4ccebc8ff856ed--legendary-bavarois-0a44d0.netlify.app",
-    features: ["Clean UI", "Responsive layout", "Interactive design"],
+    name: "PrepWise",
+    desc: "Currently developing an interview preparation platform designed to help students and job seekers organize learning resources, practice technical questions, and streamline preparation workflows through a clean and responsive user experience",
+    tech: ["HTML", "CSS", "JavaScript", "Responsive UI", "Frontend Development", "Vercel Deployment", "UI/UX"],
+    live: "https://prepwise-interview-platform-brown.vercel.app/",
+    features: ["Interview preparation modules", "Responsive layout", "Dark/Light theme"],
   },
   {
     name: "XProfile",
